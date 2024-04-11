@@ -7,9 +7,9 @@ The main function invokes two functions from folder A:
 This function incorporates three classes:  
 class EarlyStopping  :                 provides functionality for early stopping.  
 
-                                        class LabelSmoothingCrossEntropy    : defines a loss function with label smoothing.  
+class LabelSmoothingCrossEntropy    : defines a loss function with label smoothing.  
 
-                                        class CustomImageDataset         :     establishes the connection between image folders and labels.  
+class CustomImageDataset         :     establishes the connection between image folders and labels.  
 
 
 2、The test() function is a fully qualified path to the testing model, sourced from the test.py file.   
